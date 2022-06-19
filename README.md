@@ -1,4 +1,4 @@
-# Passion-Project
+# Passion-Project (Vue.js)
 **Project Description:**
 I created this website for a school project called the Passion Project, in this period we get a few weeks to create something that fits out professional identity.
 Since i want to become a front-end web developer i decided to create a showcase portfolio for myself, where people can gather info on who i am, what ive created so far, and check my CV. I am also going to create this using Vue.js, a framework i have never worked with before, this is because i want to learn to work with frameworks as im sure it will be valuable later on.
