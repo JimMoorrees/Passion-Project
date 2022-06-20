@@ -44,22 +44,23 @@ export default
 /* Using "scoped" means that this CSS is only applied within this file */
 .togglebtn
 {
-  height: 40px;
+  height: 27px;
   background-color: #FF4234;
   vertical-align: middle;
   text-align: center;
   color: white;
   cursor: pointer;
-  font-size: 35px;
+  font-size: 22px;
 }
 section.navigation {
-  width: 85px;
+  width: 75px;
   height: 100vh;
   background-color: #232123;
   position: absolute;
   top: 0%;
   border-right: solid 0.5px rgb(88, 88, 88);
   transition-duration: 0.3s;
+  z-index: 10000000;
 }
 .open
 {
@@ -89,7 +90,7 @@ nav a {
 {
   padding: 15px 0px 15px 0px;
   text-align: left;
-  font-size: 30px;
+  font-size: 22px;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -103,7 +104,7 @@ nav a:hover {
 
 .nav-logo
 {
-  height: 300px;
+  height: 200px;
   text-align: center;
 }
 .img-logo
@@ -114,13 +115,13 @@ nav a:hover {
 .icons
 {
   padding-bottom: 4px;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-right: 15px;
   padding-top: 15px;
 }
 .space
 {
-  padding-left: 35px;
+  padding-left: 30px;
   padding-right: 57%;
 }
 </style>
