@@ -8,7 +8,7 @@
           <div class="top-area">
             <div class="top-space"></div>
             <div class="top-stuff">ABOUT ME
-              <div class="abouttext">My name is Jim Moorrees and i love to design and make websites. I am currently studying Ict & Media design at Fontys university of applied sciences, when i am done studying i want to become a full time webdesigner.</div>
+              <div class="abouttext">My name is Jim Moorrees, 24 Years old and i love to design and create websites. I am currently studying Ict & Media design at Fontys university of applied sciences, when i am done studying i want to become a full time webdesigner.</div>
             </div>
             <div></div>
           </div>
@@ -80,6 +80,7 @@ export default {
   background-color: #FF4234;
   display: grid;
   grid-template-columns: 10% 20% 25% 45%;
+  opacity: 0.8;
 }
 .main-about
 {
@@ -150,7 +151,6 @@ a
 {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../src/assets/bgabt.png");
   background-size: contain;
-  background-position: right !important;
   background-repeat: no-repeat;
   position: relative;
   min-height: 100%;
@@ -177,7 +177,6 @@ a
 {
   background-color: black;
   color: white;
-  font-weight: bold;
   text-align: center;
   line-height: 2.5;
   font-size: 15px;
