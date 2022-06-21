@@ -22,8 +22,8 @@
               <div class="mid-text">If you need a website and would like me to help with that, feel free to contact me!</div>
             </div>
             <div class="right">
-              <div class="right-box">Contact opnemen?
-                <div class="right-text">Are you looking for a website, and do you want to hire me? go to the<router-link class="link kleur" :to="'/Contact'"> contact page</router-link> and feel free to send me a message, together we will see what i can do for you!</div>
+              <div class="right-box">Phone number
+                <div class="right-text">06 10776905<br/><br/>For more information, visit the<router-link class="link kleur" :to="'/Contact'"> contact page</router-link>.</div>
               </div>
             </div>
           </div>
@@ -150,6 +150,7 @@ a
 {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../src/assets/bgabt.png");
   background-size: contain;
+  background-position: right !important;
   background-repeat: no-repeat;
   position: relative;
   min-height: 100%;
