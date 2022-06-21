@@ -4,7 +4,7 @@
   als de value true is dan word de class "open" toegevoegd aan navigation, als deze false is wordt de class weer weggehaald.  -->
     <div class="container">
       <div class="nav-logo">
-        <img  class="img-logo" src="../../src/assets/logo-white.png">
+        <!-- <img  class="img-logo" src="../../src/assets/logo-white.png"> -->
       </div>
       <div class="togglebtn" :class="isOpened ? 'bx-menu-alt-right' : 'bx-menu'" id="btn" @click="isOpened = !isOpened"><font-awesome-icon icon="fa-solid fa-sliders" /></div>
       <nav>
