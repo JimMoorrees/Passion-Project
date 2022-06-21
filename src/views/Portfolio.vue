@@ -96,15 +96,15 @@ export default {
     projects: 
     [
       //hier vul ik alle korte informatie in die ik wil laten zien over mijn projecten, in dit geval: titels en een afbeelding
-      { boventitle: 'Internship project',     title: 'Torrevieja website',      imglink: require('../../src/assets/torrevieja.png'), imagetext: "Torrevieja.nl", imagelink: "google.com"}, //moet gebruik maken van require() om de images op te halen anders worden ze niet gevonden
-      { boventitle: 'School project',         title: 'Southpark Intro',         imglink: require('../../src/assets/southpark.png'), imagetext: "Bezoek Southpark", imagelink: "google.com"}, 
-      { boventitle: 'Stakeholder project',    title: 'Happy Idiots',            imglink: require('../../src/assets/happyidiots.png'), imagetext: "Happy Idiots", imagelink: "google.com"},
-      { boventitle: 'School project',         title: 'Semester 2 Portfolio',    imglink: require('../../src/assets/sem2porto.png'), imagetext: "Check Portfolio", imagelink: "google.com"},
+      { boventitle: 'Internship project',     title: 'Torrevieja website',      imglink: require('../../src/assets/torrevieja.png'), imagetext: "Torrevieja.nl", imagelink: "https://torrevieja.nl"}, //moet gebruik maken van require() om de images op te halen anders worden ze niet gevonden
+      { boventitle: 'School project',         title: 'Southpark Intro',         imglink: require('../../src/assets/southpark.png'), imagetext: "Bezoek Southpark", imagelink: "https://jimmoorrees.com/Southpark/"}, 
+      { boventitle: 'Stakeholder project',    title: 'Happy Idiots',            imglink: require('../../src/assets/happyidiots.png'), imagetext: "Happy Idiots", imagelink: "http://jimmoorrees.com/WizardV2/"},
+      { boventitle: 'School project',         title: 'Semester 2 Portfolio',    imglink: require('../../src/assets/sem2porto.png'), imagetext: "Check Portfolio", imagelink: "https://jimmoorrees.com/"},
       { }, //lege rij omdat dit een spacer is
-      { boventitle: 'School project',         title: 'Memory Game',             imglink: require('../../src/assets/memory.png'), imagetext: "Speel Memory", imagelink: "google.com"},
-      { boventitle: 'School project',         title: 'Spiderman Game',          imglink: require('../../src/assets/spiderman.png'), imagetext: "Bekijk spiderman", imagelink: "google.com"},
-      { boventitle: '',                       title: "",                        imglink: ""},
-      { boventitle: '',                       title: "",                        imglink: ""},
+      { boventitle: 'School project',         title: 'Memory Game',             imglink: require('../../src/assets/memory.png'), imagetext: "Speel Memory", imagelink: "https://jimmoorrees.com/memory/"},
+      { boventitle: 'School project',         title: 'Spiderman Game',          imglink: require('../../src/assets/spiderman.png'), imagetext: "Bekijk spiderman", imagelink: "https://jimmoorrees.com/spoddermon/"},
+      { boventitle: 'Git repository',         title: "Gitlab repositories",     imglink: require('../../src/assets/gitlab.png'), imagetext: "Check gitlab page", imagelink: "https://git.fhict.nl/I443894"},
+      { boventitle: 'Git repository',         title: "Github repositories",     imglink: require('../../src/assets/github.png'), imagetext: "Check github page", imagelink: "https://github.com/JimMoorrees"},
       
     ]
   }
