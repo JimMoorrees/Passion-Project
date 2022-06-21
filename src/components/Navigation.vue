@@ -9,7 +9,8 @@
       <div class="togglebtn" :class="isOpened ? 'bx-menu-alt-right' : 'bx-menu'" id="btn" @click="isOpened = !isOpened"><font-awesome-icon icon="fa-solid fa-sliders" /></div>
       <nav>
         <!-- active-class="(class naam)" zorgt ervoor dat de link die actief is deze class krijgt, op deze manier kan ik in mijn css in dit geval "active" zo stylen dat alleen de link die op het moment actief is deze styling krijgt-->
-        <div class="nav-link"><router-link active-class="active" :to="'/'"><font-awesome-icon class="icons" icon="fa-solid fa-house" fixed-width /><span v-if="isOpened" class="space">home</span></router-link></div><!-- v-if zorgt ervoor dat de span waar het aan vast zit alleen wordt getoont als 'isOpened'  true is. -->
+        <div class="nav-link"><router-link active-class="active" :to="'/'"><font-awesome-icon class="icons" icon="fa-solid fa-house" fixed-width /><span v-if="isOpened" class="space">home</span></router-link></div>
+        <!-- v-if zorgt ervoor dat de span waar het aan vast zit alleen wordt getoont als 'isOpened'  true is. -->
         <div class="nav-link"><router-link active-class="active" :to="'/About'"><font-awesome-icon class="icons" icon="fa-solid fa-user" fixed-width /><span v-if="isOpened" class="space">about</span></router-link></div>
         <div class="nav-link"><router-link active-class="active" :to="'/Cv'"><font-awesome-icon class="icons" icon="fa-solid fa-list" fixed-width /><span v-if="isOpened" class="space">CV</span></router-link></div>
         <div class="nav-link"><router-link active-class="active" :to="'/Portfolio'"><font-awesome-icon class="icons" icon="fa-solid fa-toolbox" fixed-width /><span v-if="isOpened" class="space">portfolio</span></router-link></div>
