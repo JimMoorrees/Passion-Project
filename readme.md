@@ -7,7 +7,7 @@ Since i want to become a front-end web developer i decided to create a showcase 
 Because i have already turned the code into a working build you can simply download the 'dist' map, it contains an index.html, a css, js and images map. Once you upload these files to your webserver the website should work as long as javascript is enabled. if you wish to use seperate components you can simple download these from the repository and use them in your own project.
 
 **How to use the project:**
-Its quite straightforward and simple, once you open the webpage you can change the names in the fields, once you are satisfied you can simply click the start button. This should start the intro. The names you filled into the fields will be shown during it.
+This website was created as purpose to show off my skills, cv, and projects ive worked on when i look for internships. So if you are looking for such a website, feel free to edit and use it for yourself.
 
 **MIT License**
 Copyright (c) 2022 Southpark Intro
