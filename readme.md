@@ -4,9 +4,7 @@ I created this website for a school project called the Passion Project, in this 
 Since i want to become a front-end web developer i decided to create a showcase portfolio for myself, where people can gather info on who i am, what ive created so far, and check my CV. I am also going to create this using Vue.js, a framework i have never worked with before, this is because i want to learn to work with frameworks as im sure it will be valuable later on.
 
 **How to Install and Run the Project:**
-You can simply download the files in this repository and upload it to your webhost, the code should work on its own as long as vue.js is installed. open your cmd, go to the path where the project map was installed using >cd example/example/passionproject
-when you are in the directory of the map type in >npm run serve
-go to your browser and type in the path the cmd gives you, then it should work.
+Because i have already turned the code into a working build you can simply download the 'dist' map, it contains an index.html, a css, js and images map. Once you upload these files to your webserver the website should work as long as javascript is enabled. if you wish to use seperate components you can simple download these from the repository and use them in your own project.
 
 **How to use the project:**
 Its quite straightforward and simple, once you open the webpage you can change the names in the fields, once you are satisfied you can simply click the start button. This should start the intro. The names you filled into the fields will be shown during it.
